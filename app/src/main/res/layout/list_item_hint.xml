@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="hint"
+            type="String" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_4_dp"
+        android:layout_marginEnd="@dimen/dimen_4_dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="@dimen/dimen_16_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_8_dp"
+                app:srcCompat="@drawable/ic_bulb" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="@dimen/dime_0_dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="If you have fever, cough and difficulty breathing, seek medical care early" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

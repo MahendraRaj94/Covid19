@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/dimen_8_dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginStart="@dimen/dimen_4_dp"
+    android:layout_marginEnd="@dimen/dimen_4_dp"
+    app:layout_constraintCircleRadius="@dimen/dimen_16_dp"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_see_all_countries"
+        android:layout_width="@dimen/dimen_40_dp"
+        android:layout_height="@dimen/dimen_40_dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/arrow_down"
+        app:tint="@color/colorAccent"
+        />
+
+</FrameLayout>
